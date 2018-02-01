@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Restoran</string>
+    <string name="nomor">Nomor</string>
+    <string name="nma">Nama</string>
+    <string name="laki_laki">Laki - Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="almt">Alamat</string>
+</resources>

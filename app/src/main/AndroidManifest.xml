@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.restoran">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LihatMakanan" />
+        <activity android:name=".BuatMakanan" />
+        <activity android:name=".UpdateMakanan" />
+        <activity android:name=".InputMinuman" />
+        <activity android:name=".LihatMinuman" />
+        <activity android:name=".UpdateMinuman" />
+        <activity android:name=".Minuman" />
+        <activity android:name=".MenuUtama" />
+        <activity android:name=".Pelanggan" />
+        <activity android:name=".BuatPelanggan" />
+        <activity android:name=".LihatPelanggan" />
+        <activity android:name=".UpdatePelanggan" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

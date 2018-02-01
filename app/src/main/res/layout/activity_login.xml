@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.example.user.restoran.Login">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#0091EA"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.62"
+            android:text="Register" />
+
+        <Button
+            android:text="LOGIN"
+            android:textColor="#FFF"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/button2"
+            android:onClick="loginMasuk"
+            android:textStyle="normal|bold"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edittext_password"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="monospace"
+        android:hint="Username"
+        android:inputType="textCapWords"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textCapWords"
+        style="@style/AppTheme"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30sp"
+        android:fontFamily="monospace"/>
+
+    <TextView
+        android:text="User Login"
+        android:textColor="#fff"
+        android:background="#0091EA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textStyle="normal|bold"
+        android:textSize="36sp"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"/>
+</RelativeLayout>
